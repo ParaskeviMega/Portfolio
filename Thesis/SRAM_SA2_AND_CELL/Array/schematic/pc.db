@@ -1,0 +1,42 @@
+#
+SRAM-BTI cell-2def symbol
+I18
+#
+SRAM-BTI TriST-NOTx0 symbol
+I16
+I17
+#
+SRAM-BTI TriST-NOTxZ symbol
+I13
+I14
+#
+SRAM-BTI Mcells symbol
+I6
+I5
+#
+SRAM-BTI NOTx1 symbol
+I10
+I4
+#
+SRAM-BTI cell-def symbol
+I12
+I1
+#
+SRAM-BTI cell-free symbol
+I15
+I0
+#ISCELL
+basic ipin symbol
+PIN0
+PIN1
+#ISCELL
+basic iopin symbolr
+PIN5
+PIN3
+PIN4
+PIN2
+PIN7
+PIN6
+#ISCELL
+basic opin symbol
+PIN8

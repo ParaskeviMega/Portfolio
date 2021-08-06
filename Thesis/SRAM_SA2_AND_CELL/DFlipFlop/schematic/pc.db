@@ -1,0 +1,46 @@
+#
+SRAM_SA2_BTI NOTx1 symbol
+I3
+I4
+I0
+I1
+I2
+#
+umc90nm N_10_SPLVT symbol
+NM9
+NM10
+NM8
+NM7
+NM6
+NM5
+NM4
+NM3
+NM2
+NM1
+NM0
+#
+umc90nm P_10_SPLVT symbol
+PM9
+PM8
+PM7
+PM10
+PM6
+PM5
+PM4
+PM3
+PM2
+PM1
+PM0
+#ISCELL
+basic ipin symbol
+PIN4
+PIN0
+PIN3
+#ISCELL
+basic iopin symbolr
+PIN2
+PIN1
+#ISCELL
+basic opin symbol
+PIN8
+PIN5

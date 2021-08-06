@@ -1,0 +1,41 @@
+#
+umc90nm P_10_SPLVT symbol
+PM0
+PM2
+#
+analogLib vpulse symbol
+V0
+#
+SRAM-BTI cell-cdef_up symbol
+I30
+#
+SRAM-BTI cell-tdef_up symbol
+I29
+#
+SRAM-BTI cell-2def_up symbol
+I27
+#
+SRAM-BTI Diff_NOT symbol
+I31
+I20
+I21
+I22
+#
+SRAM-BTI Mcells symbol
+I5
+#
+SRAM-BTI NOTx1 symbol
+I10
+#ISCELL
+basic ipin symbol
+PIN9
+PIN10
+#ISCELL
+basic iopin symbolr
+PIN5
+PIN3
+PIN4
+PIN2
+#ISCELL
+basic opin symbol
+PIN8

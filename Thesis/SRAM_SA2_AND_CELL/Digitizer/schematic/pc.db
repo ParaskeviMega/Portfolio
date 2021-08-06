@@ -1,0 +1,75 @@
+#
+SRAM_SA2_BTI TFF_Pre symbol
+I58
+#
+SRAM_SA2_BTI TFlipFlop symbol
+I24
+I30
+I26
+I38
+I42
+I49
+I50
+I25
+I37
+#
+SRAM_SA2_BTI OR symbol
+I56
+I17
+I18
+I27
+I39
+I36
+I43
+I48
+I51
+I31
+#
+SRAM_SA2_BTI AND symbol
+I28
+I14
+I15
+I16
+I34
+I32
+I35
+I29
+I40
+I19
+I41
+I44
+I45
+I46
+I47
+I20
+I33
+I52
+I53
+#
+SRAM_SA2_BTI NOTx1 symbol
+I13
+#ISCELL
+basic iopin symbolr
+PIN2
+PIN1
+#ISCELL
+basic ipin symbol
+PIN5
+PIN0
+PIN4
+PIN3
+#ISCELL
+basic noConn symbol
+I59
+#ISCELL
+basic opin symbol
+PIN14
+PIN6
+PIN16
+PIN12
+PIN9
+PIN11
+PIN15
+PIN10
+PIN13
+PIN8

@@ -1,0 +1,66 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+mux
+# storage
+db|ex1p8.(1).cnf
+db|ex1p8.(1).cnf
+# case_insensitive
+# source_file
+mux.bdf
+cb35c75973ad4c7a5a859b3d965ab
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+mux:inst
+mux:inst1
+mux:inst2
+mux:inst3
+}
+# macro_sequence
+
+# end
+# entity
+ex1p8
+# storage
+db|ex1p8.(0).cnf
+db|ex1p8.(0).cnf
+# case_insensitive
+# source_file
+ex1p8.bdf
+fe1926f62c9fbdbe47994fc1df8d328
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

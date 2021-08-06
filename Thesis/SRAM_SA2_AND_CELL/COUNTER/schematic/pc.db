@@ -1,0 +1,48 @@
+#
+SRAM_SA2_BTI up_counter symbol
+I13
+I11
+#
+analogLib vdc symbol
+V0
+#
+SRAM_SA2_BTI NOTx1 symbol
+I5
+#
+SRAM_SA2_BTI AND symbol
+I4
+I3
+#ISCELL
+basic ipin symbol
+PIN3
+PIN1
+PIN31
+PIN0
+PIN25
+#ISCELL
+basic opin symbol
+PIN26
+PIN24
+PIN23
+PIN22
+PIN21
+PIN20
+PIN19
+PIN18
+PIN17
+PIN16
+PIN13
+PIN12
+PIN11
+PIN10
+PIN9
+PIN8
+PIN7
+PIN6
+PIN5
+PIN4
+PIN14
+PIN15
+#ISCELL
+analogLib gnd symbol
+I8

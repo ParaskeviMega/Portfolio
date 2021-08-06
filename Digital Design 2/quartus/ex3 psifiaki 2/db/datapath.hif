@@ -1,0 +1,184 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+74195
+# storage
+db|datapath.(1).cnf
+db|datapath.(1).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74195.bdf
+96488bd27828ab31b6536acfb96ddb2c
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+register:inst|74195:inst
+register:inst|74195:inst1
+}
+# macro_sequence
+
+# end
+# entity
+7483
+# storage
+db|datapath.(3).cnf
+db|datapath.(3).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|7483.bdf
+29c8a1a743e9939f53d4ec9d1c9b3558
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+addsub:inst1|7483:inst
+}
+# macro_sequence
+
+# end
+# entity
+74155
+# storage
+db|datapath.(6).cnf
+db|datapath.(6).cnf
+# case_insensitive
+# source_file
+|altera|91sp2|quartus|libraries|others|maxplus2|74155.bdf
+c2b6abfffbb278e283fb78c5b277ae8b
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst3|74155:inst5
+}
+# macro_sequence
+
+# end
+# entity
+ALU
+# storage
+db|datapath.(5).cnf
+db|datapath.(5).cnf
+# case_insensitive
+# source_file
+alu.bdf
+4eaec5423f5f8ce64537cf99a63d419f
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+ALU:inst3
+}
+# macro_sequence
+
+# end
+# entity
+datapath
+# storage
+db|datapath.(7).cnf
+db|datapath.(7).cnf
+# case_insensitive
+# source_file
+datapath.bdf
+7fd0784b3c2e38e28341aa4b6836a8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+register
+# storage
+db|datapath.(0).cnf
+db|datapath.(0).cnf
+# case_insensitive
+# source_file
+register.bdf
+32ee2ca41da8d0e1d539af2149107dd8
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+register:inst
+}
+# macro_sequence
+
+# end
+# entity
+addsub
+# storage
+db|datapath.(2).cnf
+db|datapath.(2).cnf
+# case_insensitive
+# source_file
+addsub.bdf
+11a578908e6ec413cdc60a9e7d36564
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+addsub:inst1
+}
+# macro_sequence
+
+# end
+# entity
+Kstore
+# storage
+db|datapath.(4).cnf
+db|datapath.(4).cnf
+# case_insensitive
+# source_file
+kstore.bdf
+a639e5617ef4fcdbbff05eecc3f1f183
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+Kstore:inst2
+}
+# macro_sequence
+
+# end
+# complete
+

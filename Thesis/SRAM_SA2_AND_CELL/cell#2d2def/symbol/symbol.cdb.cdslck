@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      tsiatouhas
+HostName                       dslab001
+ProcessIdentifier              5699
+ProcessCreationTime_UTC        1479976512
+ProcessCreationTime_Readable   Thu Nov 24 10:35:12 2016 EET
+AppIdentifier                  /usr/cadence_ic/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXreopen for A_MODE lock
+FilePathUsedToEditLock         /home/tsiatouhas/projects/UMC90n/SRAM#2dBTI/cell#2d2def/symbol/symbol.cdb
+TimeEditLocked                 Thu Nov 24 12:03:48 2016 EET

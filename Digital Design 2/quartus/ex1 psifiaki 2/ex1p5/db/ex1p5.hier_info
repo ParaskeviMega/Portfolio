@@ -1,0 +1,8 @@
+|ex1p5
+Q <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst.ACLR
+CLK => inst.CLK
+D => inst.DATAIN
+SET => inst.PRESET
+
+

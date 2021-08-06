@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      Marilena
+HostName                       dslab001
+ProcessIdentifier              5720
+ProcessCreationTime_UTC        1536554545
+ProcessCreationTime_Readable   Mon Sep 10 07:42:25 2018 EEST
+AppIdentifier                  /usr/cadence_ic/tools/dfII/bin/icfb.exe
+OSType                         lnx86
+ReasonForPlacingEditLock       XXsave write lock
+FilePathUsedToEditLock         /home/Marilena/projects/UMC90n/SRAM_SA2_AND_CELL/SRAM_SA_OSC/symbol/symbol.cdb
+TimeEditLocked                 Mon Oct  8 13:22:58 2018 EEST

@@ -1,0 +1,32 @@
+#
+SRAM_SA2_BTI DFlipFlop symbol
+I9
+I8
+I7
+I6
+I5
+I4
+I3
+I2
+I1
+I0
+#ISCELL
+basic opin symbol
+PIN9
+PIN8
+PIN7
+PIN6
+PIN5
+PIN2
+PIN1
+PIN0
+PIN3
+PIN4
+#ISCELL
+basic ipin symbol
+PIN11
+PIN10
+#ISCELL
+basic iopin symbolr
+PIN12
+PIN13

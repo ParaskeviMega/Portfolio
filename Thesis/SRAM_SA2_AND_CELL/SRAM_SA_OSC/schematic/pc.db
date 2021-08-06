@@ -1,0 +1,76 @@
+#
+SRAM_SA2_AND_CELL SA_FCROSS symbol
+I49
+#
+SRAM_SA2_AND_CELL SWITCH symbol
+I69
+I64
+I63
+I70
+#
+SRAM_SA2_AND_CELL NAND symbol
+I67
+#
+SRAM_SA2_AND_CELL Diff_NOT symbol
+I55
+I53
+I54
+#
+SRAM_SA2_AND_CELL PRECHARGE_CELL symbol
+I50
+#
+SRAM_SA2_AND_CELL Mcells symbol
+I51
+#
+SRAM_SA2_AND_CELL cell-free symbol
+I52
+#
+SRAM_SA2_AND_CELL NOTx1 symbol
+I71
+I65
+I57
+I59
+I58
+I60
+I56
+#
+analogLib ipwl symbol
+I1
+#
+analogLib vpwl symbol
+V3
+#
+umc90nm N_10_SPLVT symbol
+NM0
+#
+analogLib cap symbol
+C2
+C3
+#
+umc90nm P_10_SPLVT symbol
+PM9
+PM10
+PM6
+PM7
+PM8
+#ISCELL
+basic opin symbol
+PIN7
+PIN23
+PIN20
+#ISCELL
+basic iopin symbolr
+PIN12
+PIN17
+PIN18
+PIN19
+#ISCELL
+basic ipin symbol
+PIN13
+PIN14
+PIN15
+PIN16
+PIN22
+#ISCELL
+basic noConn symbol
+I36

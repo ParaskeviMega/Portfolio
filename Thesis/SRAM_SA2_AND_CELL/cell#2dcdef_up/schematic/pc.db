@@ -1,0 +1,19 @@
+#
+SRAM-BTI NOT-bdef_pup symbol
+I8
+#
+SRAM-BTI NOT-bdef_pdw symbol
+I7
+#
+umc90nm N_10_SPLVT symbol
+NM1
+NM0
+#ISCELL
+basic iopin symbolr
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic ipin symbol
+PIN4

@@ -1,0 +1,13 @@
+#
+analogLib res symbol
+R0
+R1
+#
+umc90nm P_10_SP symbol
+PM0
+#ISCELL
+basic iopin symbolr
+PIN0
+PIN3
+PIN1
+PIN2

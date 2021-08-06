@@ -1,0 +1,1 @@
+These exercises were implemented for the Digital Design II (ΜΥΥ406) subject during my studies at University of Ioannina. They are designed at quartus tool. They include the pronunciations with my solutions.

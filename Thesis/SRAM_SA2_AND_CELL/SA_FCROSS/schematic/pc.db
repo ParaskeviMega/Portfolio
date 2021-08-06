@@ -1,0 +1,30 @@
+#
+SRAM_SA2_AND_CELL NOT_SA symbol
+I51
+I52
+I2
+#
+analogLib res symbol
+R0
+R1
+#
+umc90nm N_10_SPLVT symbol
+NM49
+NM44
+NM41
+#
+umc90nm P_10_SPLVT symbol
+PM49
+PM48
+PM47
+#ISCELL
+basic iopin symbolr
+PIN5
+PIN6
+PIN4
+PIN1
+PIN2
+PIN3
+#ISCELL
+basic ipin symbol
+PIN0

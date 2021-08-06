@@ -1,0 +1,25 @@
+#
+umc90nm P_10_SPLVT symbol
+PM5
+PM4
+#
+analogLib vdc symbol
+V3
+V0
+V4
+V5
+V2
+V1
+#
+SRAM_SA2_BTI SA_FCROSS symbol
+I1
+#ISCELL
+basic opin symbol
+PIN20
+PIN7
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+analogLib gnd symbol
+I2

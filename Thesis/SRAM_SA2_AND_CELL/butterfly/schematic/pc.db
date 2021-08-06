@@ -1,0 +1,22 @@
+#
+umc90nm N_10_SPLVT symbol
+NM4
+NM3
+#
+SRAM_SA2_AND_CELL NOT-pdef_up symbol
+I18
+#
+SRAM_SA2_AND_CELL NOT-ndef_dw symbol
+I20
+#
+analogLib vdc symbol
+V0
+#ISCELL
+basic ipin symbol
+PIN4
+#ISCELL
+basic iopin symbolr
+PIN2
+PIN0
+PIN1
+PIN3

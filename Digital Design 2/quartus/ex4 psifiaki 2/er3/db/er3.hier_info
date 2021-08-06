@@ -1,0 +1,146 @@
+|er3
+Cout <= bit8_adder:inst.Cout
+Cin => bit8_adder:inst.Cin
+A[0] => bit8_adder:inst.A[0]
+A[1] => bit8_adder:inst.A[1]
+A[2] => bit8_adder:inst.A[2]
+A[3] => bit8_adder:inst.A[3]
+A[4] => bit8_adder:inst.A[4]
+A[5] => bit8_adder:inst.A[5]
+A[6] => bit8_adder:inst.A[6]
+A[7] => bit8_adder:inst.A[7]
+B[0] => bit8_adder:inst.B[0]
+B[1] => bit8_adder:inst.B[1]
+B[2] => bit8_adder:inst.B[2]
+B[3] => bit8_adder:inst.B[3]
+B[4] => bit8_adder:inst.B[4]
+B[5] => bit8_adder:inst.B[5]
+B[6] => bit8_adder:inst.B[6]
+B[7] => bit8_adder:inst.B[7]
+S[0] <= bit8_adder:inst.S[0]
+S[1] <= bit8_adder:inst.S[1]
+S[2] <= bit8_adder:inst.S[2]
+S[3] <= bit8_adder:inst.S[3]
+S[4] <= bit8_adder:inst.S[4]
+S[5] <= bit8_adder:inst.S[5]
+S[6] <= bit8_adder:inst.S[6]
+S[7] <= bit8_adder:inst.S[7]
+
+
+|er3|bit8_adder:inst
+A[0] => FA:u0.A
+A[1] => FA:u1.A
+A[2] => FA:u2.A
+A[3] => FA:u3.A
+A[4] => FA:u4.A
+A[5] => FA:u5.A
+A[6] => FA:u6.A
+A[7] => FA:u7.A
+B[0] => FA:u0.B
+B[1] => FA:u1.B
+B[2] => FA:u2.B
+B[3] => FA:u3.B
+B[4] => FA:u4.B
+B[5] => FA:u5.B
+B[6] => FA:u6.B
+B[7] => FA:u7.B
+Cin => FA:u0.Cin
+S[0] <= FA:u0.S
+S[1] <= FA:u1.S
+S[2] <= FA:u2.S
+S[3] <= FA:u3.S
+S[4] <= FA:u4.S
+S[5] <= FA:u5.S
+S[6] <= FA:u6.S
+S[7] <= FA:u7.S
+Cout <= FA:u7.Cout
+
+
+|er3|bit8_adder:inst|FA:u0
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u1
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u2
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u3
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u4
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u5
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u6
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|er3|bit8_adder:inst|FA:u7
+A => wire1.IN0
+A => Cout.IN0
+B => wire1.IN1
+B => Cout.IN1
+Cin => S.IN1
+Cin => Cout.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

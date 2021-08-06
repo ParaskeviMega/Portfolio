@@ -1,0 +1,6 @@
+|first_exercise
+LED <= inst.DB_MAX_OUTPUT_PORT_TYPE
+PB2 => inst2.IN0
+PB1 => inst1.IN0
+
+

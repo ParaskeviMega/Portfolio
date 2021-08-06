@@ -1,0 +1,27 @@
+#
+SRAM_SA2_BTI Digitizer symbol
+I0
+#
+analogLib vdc symbol
+V0
+#ISCELL
+analogLib gnd symbol
+I1
+#ISCELL
+basic ipin symbol
+PIN3
+PIN2
+PIN1
+PIN0
+#ISCELL
+basic opin symbol
+PIN13
+PIN12
+PIN11
+PIN10
+PIN9
+PIN8
+PIN7
+PIN6
+PIN5
+PIN4

@@ -1,0 +1,16 @@
+#
+umc90nm P_10_SPLVT symbol
+PM0
+#
+umc90nm N_10_SPLVT symbol
+NM0
+#ISCELL
+basic iopin symbolr
+PIN3
+PIN2
+#ISCELL
+basic ipin symbol
+PIN0
+#ISCELL
+basic opin symbol
+PIN1

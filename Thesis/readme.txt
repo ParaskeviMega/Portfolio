@@ -1,0 +1,1 @@
+This thesis is about the monitoring technique of Time Dependent Dielectric Breakdown (TDDB) at SRAM memories. There are a .pdf file that concers the report of the thesis and the files of a designed SRAM circuit using the Virtuoso tool in collaboration with SPECTRE simulation of Cadence. Vivi is the top level schematic that was used.

@@ -1,0 +1,204 @@
+|datapath
+ADD/SUBOUT[0] <= addsub:inst1.S[0]
+ADD/SUBOUT[1] <= addsub:inst1.S[1]
+ADD/SUBOUT[2] <= addsub:inst1.S[2]
+ADD/SUBOUT[3] <= addsub:inst1.S[3]
+CLR/SET => ALU:inst3.CLR
+CLR/SET => ALU:inst3.SET
+CLR/SET => Kstore:inst2.SET
+CLR/SET => Kstore:inst2.CLR
+CLR/SET => register:inst.Clear
+CLK => ALU:inst3.CLK
+CLK => Kstore:inst2.CLK
+CLK => register:inst.CLK
+START => ALU:inst3.START
+SIN => register:inst.Sin
+A[0] => register:inst.A[0]
+A[1] => register:inst.A[1]
+A[2] => register:inst.A[2]
+A[3] => register:inst.A[3]
+B[0] => register:inst.B[0]
+B[1] => register:inst.B[1]
+B[2] => register:inst.B[2]
+B[3] => register:inst.B[3]
+
+
+|datapath|addsub:inst1
+C <= 7483:inst.C4
+B[0] => inst1.IN0
+B[1] => inst2.IN0
+B[2] => inst3.IN0
+B[3] => inst4.IN0
+ADD/SUB => inst4.IN1
+ADD/SUB => 7483:inst.C0
+ADD/SUB => inst1.IN1
+ADD/SUB => inst2.IN1
+ADD/SUB => inst3.IN1
+A[0] => 7483:inst.A1
+A[1] => 7483:inst.A2
+A[2] => 7483:inst.A3
+A[3] => 7483:inst.A4
+S[0] <= 7483:inst.S1
+S[1] <= 7483:inst.S2
+S[2] <= 7483:inst.S3
+S[3] <= 7483:inst.S4
+
+
+|datapath|addsub:inst1|7483:inst
+C4 <= 83.DB_MAX_OUTPUT_PORT_TYPE
+B4 => 22.IN0
+B4 => 26.IN0
+A4 => 22.IN1
+A4 => 26.IN1
+B3 => 21.IN0
+B3 => 25.IN0
+A3 => 21.IN1
+A3 => 25.IN1
+B2 => 20.IN0
+B2 => 24.IN0
+A2 => 20.IN1
+A2 => 24.IN1
+B1 => 19.IN0
+B1 => 23.IN0
+A1 => 19.IN1
+A1 => 23.IN1
+C0 => 17.IN0
+S4 <= 45.DB_MAX_OUTPUT_PORT_TYPE
+S3 <= 44.DB_MAX_OUTPUT_PORT_TYPE
+S2 <= 43.DB_MAX_OUTPUT_PORT_TYPE
+S1 <= 42.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|datapath|ALU:inst3
+EnA <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+START => inst9.IN0
+START => inst20.IN0
+Q1 <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst2.ACLR
+CLR => inst.ACLR
+CLK => inst2.CLK
+CLK => inst.CLK
+SET => inst2.PRESET
+SET => inst.PRESET
+Q0 <= inst.DB_MAX_OUTPUT_PORT_TYPE
+Z => inst8.IN0
+Z => inst17.IN0
+EnB/LSB <= inst19.DB_MAX_OUTPUT_PORT_TYPE
+SF/ADD <= inst11.DB_MAX_OUTPUT_PORT_TYPE
+LSA <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|datapath|ALU:inst3|74155:inst5
+1Y0N <= 33.DB_MAX_OUTPUT_PORT_TYPE
+1GN => 41.IN0
+1C => 7.IN0
+SELA => 59.IN0
+SELB => 57.IN0
+1Y1N <= 34.DB_MAX_OUTPUT_PORT_TYPE
+1Y2N <= 35.DB_MAX_OUTPUT_PORT_TYPE
+1Y3N <= 36.DB_MAX_OUTPUT_PORT_TYPE
+2Y0N <= 37.DB_MAX_OUTPUT_PORT_TYPE
+2CN => 42.IN0
+2GN => 42.IN1
+2Y1N <= 38.DB_MAX_OUTPUT_PORT_TYPE
+2Y2N <= 39.DB_MAX_OUTPUT_PORT_TYPE
+2Y3N <= 40.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|datapath|Kstore:inst2
+OUT <= inst.DB_MAX_OUTPUT_PORT_TYPE
+SET => inst.PRESET
+CLR => inst.ACLR
+Q[0] => inst2.IN0
+Q[1] => inst2.IN3
+Q[2] => inst2.IN1
+Q[3] => inst2.IN2
+Enable_clk => inst5.IN0
+CLK => inst5.IN1
+
+
+|datapath|register:inst
+A_out[0] <= 74195:inst.Q0
+A_out[1] <= 74195:inst.Q1
+A_out[2] <= 74195:inst.Q2
+A_out[3] <= 74195:inst.Q3
+LOAD_A => 74195:inst.ST/LDN
+Sin => 74195:inst.KN
+Sin => 74195:inst.J
+Clear => 74195:inst.CLRN
+Clear => 74195:inst1.CLRN
+A[0] => 74195:inst.D0
+A[1] => 74195:inst.D1
+A[2] => 74195:inst.D2
+A[3] => 74195:inst.D3
+CLK => inst2.IN0
+CLK => inst3.IN0
+En_A => inst2.IN1
+B_out[0] <= 74195:inst1.Q0
+B_out[1] <= 74195:inst1.Q1
+B_out[2] <= 74195:inst1.Q2
+B_out[3] <= 74195:inst1.Q3
+LOAD_B => 74195:inst1.ST/LDN
+B[0] => 74195:inst1.D0
+B[1] => 74195:inst1.D1
+B[2] => 74195:inst1.D2
+B[3] => 74195:inst1.D3
+En_B => inst3.IN1
+
+
+|datapath|register:inst|74195:inst
+Q0 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 15.ACLR
+CLRN => 16.ACLR
+CLRN => 17.ACLR
+CLRN => 18.ACLR
+CLK => 15.CLK
+CLK => 16.CLK
+CLK => 17.CLK
+CLK => 18.CLK
+ST/LDN => 79.IN0
+ST/LDN => 48.IN0
+ST/LDN => 78.IN0
+ST/LDN => 34.IN1
+ST/LDN => 36.IN1
+ST/LDN => 38.IN1
+KN => 79.IN2
+D0 => 33.IN1
+J => 78.IN2
+Q1 <= 16.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 35.IN1
+Q2 <= 17.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 37.IN1
+Q3 <= 18.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 39.IN1
+Q3N <= 83.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|datapath|register:inst|74195:inst1
+Q0 <= 15.DB_MAX_OUTPUT_PORT_TYPE
+CLRN => 15.ACLR
+CLRN => 16.ACLR
+CLRN => 17.ACLR
+CLRN => 18.ACLR
+CLK => 15.CLK
+CLK => 16.CLK
+CLK => 17.CLK
+CLK => 18.CLK
+ST/LDN => 79.IN0
+ST/LDN => 48.IN0
+ST/LDN => 78.IN0
+ST/LDN => 34.IN1
+ST/LDN => 36.IN1
+ST/LDN => 38.IN1
+KN => 79.IN2
+D0 => 33.IN1
+J => 78.IN2
+Q1 <= 16.DB_MAX_OUTPUT_PORT_TYPE
+D1 => 35.IN1
+Q2 <= 17.DB_MAX_OUTPUT_PORT_TYPE
+D2 => 37.IN1
+Q3 <= 18.DB_MAX_OUTPUT_PORT_TYPE
+D3 => 39.IN1
+Q3N <= 83.DB_MAX_OUTPUT_PORT_TYPE
+
+

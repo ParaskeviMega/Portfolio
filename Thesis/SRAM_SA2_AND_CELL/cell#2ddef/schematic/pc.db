@@ -1,0 +1,19 @@
+#
+SRAM-BTI NOT-def symbol
+I0
+#
+SRAM-BTI NOT-free symbol
+I2
+#
+umc90nm N_10_SPLVT symbol
+NM0
+NM1
+#ISCELL
+basic ipin symbol
+PIN4
+#ISCELL
+basic iopin symbolr
+PIN0
+PIN1
+PIN2
+PIN3

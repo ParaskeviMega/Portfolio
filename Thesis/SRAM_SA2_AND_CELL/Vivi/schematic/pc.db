@@ -1,0 +1,23 @@
+#
+SRAM_SA2_AND_CELL SRAM_SA_OSC_V symbol
+I34
+#
+analogLib vdc symbol
+V0
+#ISCELL
+basic ipin symbol
+PIN0
+PIN2
+PIN3
+PIN1
+PIN6
+#ISCELL
+basic noConn symbol
+I25
+I32
+I22
+I21
+I30
+#ISCELL
+analogLib gnd symbol
+I1

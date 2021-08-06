@@ -1,0 +1,234 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+dfftester
+# storage
+db|part2er1.(0).cnf
+db|part2er1.(0).cnf
+# case_insensitive
+# source_file
+dfftester.bdf
+11e45d11490a048c5a2977962f6d4
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+D_ff
+# storage
+db|part2er1.(1).cnf
+db|part2er1.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+dff.vhd
+3217c2e1154e42533f85e9e88ab8d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+latchtester
+# storage
+db|part2er1.(2).cnf
+db|part2er1.(2).cnf
+# case_insensitive
+# source_file
+latchtester.bdf
+1063ac45b5fb90eeaaa195368b73d30
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+MyLatch
+# storage
+db|part2er1.(3).cnf
+db|part2er1.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+latch.vhd
+27e222c6e928ad46943b3f4ee63984f
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+part2
+# storage
+db|part2er1.(4).cnf
+db|part2er1.(4).cnf
+# case_insensitive
+# source_file
+part2.bdf
+d3b35fe422db924b774f339c67ae1d
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+dfreg
+# storage
+db|part2er1.(6).cnf
+db|part2er1.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+register.vhd
+5817bcaef0503e9ca98e9d6b6ae12b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+dfreg:inst
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+counter
+# storage
+db|part2er1.(7).cnf
+db|part2er1.(7).cnf
+# case_insensitive
+# source_file
+counter.bdf
+d4c3c67acac2da7c423ccf9d1235f91
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# macro_sequence
+
+# end
+# entity
+counter8bit
+# storage
+db|part2er1.(8).cnf
+db|part2er1.(8).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+counter.vhd
+dac1fbbacfb6c071b422bec5d99f1228
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+|altera|91sp2|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+reg
+# storage
+db|part2er1.(5).cnf
+db|part2er1.(5).cnf
+# case_insensitive
+# source_file
+reg.bdf
+c02fdef7debef8460842b647c5a83aa
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

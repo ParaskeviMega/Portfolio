@@ -1,0 +1,1 @@
+These exercises were implemented for the microprocessors (ΜΥΥ901) subject during my studies at University of Ioannina. They include the pronunciations with my solutions.

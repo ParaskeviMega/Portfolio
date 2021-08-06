@@ -1,0 +1,95 @@
+|ex1p8
+Q0 <= inst12.DB_MAX_OUTPUT_PORT_TYPE
+CLR => inst12.ACLR
+CLR => inst13.ACLR
+CLR => inst14.ACLR
+CLR => inst15.ACLR
+CLK => inst12.CLK
+CLK => inst13.CLK
+CLK => inst14.CLK
+CLK => inst15.CLK
+S0 => mux:inst.A1
+S0 => mux:inst1.A1
+S0 => mux:inst2.A1
+S0 => mux:inst3.A1
+S1 => mux:inst.A2
+S1 => mux:inst1.A2
+S1 => mux:inst2.A2
+S1 => mux:inst3.A2
+GND => mux:inst.I1
+GND => mux:inst1.I1
+GND => mux:inst2.I1
+GND => mux:inst3.I1
+I0 => mux:inst.I2
+VDC => mux:inst.I4
+VDC => mux:inst1.I4
+VDC => mux:inst2.I4
+VDC => mux:inst3.I4
+SET => inst12.PRESET
+SET => inst13.PRESET
+SET => inst14.PRESET
+SET => inst15.PRESET
+Q1 <= inst13.DB_MAX_OUTPUT_PORT_TYPE
+I1 => mux:inst1.I2
+Q2 <= inst14.DB_MAX_OUTPUT_PORT_TYPE
+I2 => mux:inst2.I2
+Q3 <= inst15.DB_MAX_OUTPUT_PORT_TYPE
+I3 => mux:inst3.I2
+
+
+|ex1p8|mux:inst
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst3.IN0
+A2 => inst11.IN0
+A2 => inst3.IN1
+A2 => inst1.IN1
+I1 => inst.IN2
+I3 => inst2.IN2
+I4 => inst3.IN2
+I2 => inst1.IN2
+
+
+|ex1p8|mux:inst1
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst3.IN0
+A2 => inst11.IN0
+A2 => inst3.IN1
+A2 => inst1.IN1
+I1 => inst.IN2
+I3 => inst2.IN2
+I4 => inst3.IN2
+I2 => inst1.IN2
+
+
+|ex1p8|mux:inst2
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst3.IN0
+A2 => inst11.IN0
+A2 => inst3.IN1
+A2 => inst1.IN1
+I1 => inst.IN2
+I3 => inst2.IN2
+I4 => inst3.IN2
+I2 => inst1.IN2
+
+
+|ex1p8|mux:inst3
+Y <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+A1 => inst10.IN0
+A1 => inst2.IN0
+A1 => inst3.IN0
+A2 => inst11.IN0
+A2 => inst3.IN1
+A2 => inst1.IN1
+I1 => inst.IN2
+I3 => inst2.IN2
+I4 => inst3.IN2
+I2 => inst1.IN2
+
+

@@ -1,0 +1,49 @@
+RPW
+
+	Undo Commands
+	     1.	||Compilation Report||Flow Summary
+	     2.	||Compilation Report||Analysis & Synthesis||Settings||Analysis & Synthesis Settings
+	     3.	||Compilation Report||Analysis & Synthesis||Analysis & Synthesis Summary
+	     4.	||Compilation Report||Flow Log
+	     5.	||Compilation Report||Flow OS Summary
+	     6.	||Compilation Report||Flow Elapsed Time
+	     7.	||Compilation Report||Flow Non-Default Global Settings
+	     8.	||Compilation Report||Flow Settings
+	     9.	||Compilation Report||Flow Summary
+	    10.	||Compilation Report||Legal Notice
+	    11.	||Compilation Report||Flow Summary
+	    12.	||Compilation Report||Legal Notice
+	    13.	||Compilation Report||Analysis & Synthesis||Analysis & Synthesis Summary
+	    14.	||Compilation Report||Flow Summary
+
+
+RPW
+
+	Undo Commands
+	     1.	||Simulation Report||Simulator||Simulation Waveforms
+
+
+GED
+
+	Undo Commands
+	     1.	Properties
+	     2.	Move
+	     3.	Insert Symbol
+	     4.	Delete Insert
+	     5.	Move
+	     6.	Move
+	     7.	Move
+
+
+WED
+
+	Undo Commands
+	     1.	Count Value
+			 *** 
+	     2.	Count Value
+			 *** 
+	     3.	Count Value
+			 *** 
+	     4.	Insert Node or Bus
+
+

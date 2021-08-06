@@ -1,0 +1,34 @@
+#
+analogLib vdc symbol
+V3
+V0
+V4
+V5
+V2
+V1
+#
+umc90nm P_10_SPLVT symbol
+PM0
+PM1
+PM2
+#
+umc90nm N_10_SPLVT symbol
+NM0
+NM1
+NM2
+#
+SRAM-BTI NOTx1 symbol
+I0
+#ISCELL
+basic opin symbol
+PIN5
+PIN6
+#ISCELL
+basic iopin symbolr
+PIN3
+PIN4
+#ISCELL
+basic ipin symbol
+PIN0
+PIN1
+PIN2
