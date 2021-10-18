@@ -1,0 +1,1 @@
+This folder includes the Certifications of the seminars and courses i have watched so far.
